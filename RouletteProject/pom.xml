@@ -5,8 +5,25 @@
   <modelVersion>4.0.0</modelVersion>
  
   <!-- The Basics -->
-  <groupId>ooDesign</groupId>
+  <groupId>org.ooDesign.com</groupId>
   <artifactId>Roulette</artifactId>
   <version>SNAPSHOT-1.0.0</version>
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>2.4</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>application.main</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
+
 
 </project>
