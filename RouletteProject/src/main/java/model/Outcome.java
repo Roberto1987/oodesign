@@ -62,6 +62,14 @@ public class Outcome {
      * @return
      */
     private String descCompose() {
-        return this.odds+this.name;
+        return this.name+this.odds;
+    }
+
+    /**
+     * String representation of the object
+     * @return
+     */
+    public String getDescription    (){
+        return this.name+"-"+this.odds;
     }
 }

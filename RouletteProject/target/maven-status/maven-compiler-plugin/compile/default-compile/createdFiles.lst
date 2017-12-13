@@ -1,0 +1,4 @@
+model\Bin.class
+application\main.class
+customException\KeyAlreadyContainedException.class
+model\Outcome.class
