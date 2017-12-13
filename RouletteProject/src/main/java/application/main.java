@@ -4,7 +4,7 @@ class main{
 
     public static void main(String args[]){
 
-        System.out.println("Hello mvn learner");
+        System.out.println("Roulette project initialized");
     }
     
 

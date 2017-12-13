@@ -24,6 +24,17 @@ public class Outcome {
         return odds;
     }
 
+    /**
+     * Object equality using hashcode, considering both odds and name
+     * @return
+     */
+
+    public boolean isEqualTo(Outcome c){
+        String cDesc = c.getName()+c.getOdds();
+        String thisDesc = descCompose();
+        return (cDesc.hashCode()==thisDesc.hashCode());
+    }
+
     public String getName() {
         return name;
     }
@@ -33,7 +44,24 @@ public class Outcome {
      * @param o
      * @return TRUE if the names are the same, FALSE otherwise
      */
-    public boolean isEqualTo(Outcome o){
+    public boolean isNameEqualTo(Outcome o){
         return this.name.equals(o.getName());
+    }
+
+    /**
+     * Return the hashCode for the string describint the outcome object
+     * @return
+     */
+    public int getHashCode(){
+        String thisDesc = descCompose();
+        return thisDesc.hashCode();
+    }
+
+    /**
+     * Compose a string representation of the object, independent from the reference.
+     * @return
+     */
+    private String descCompose() {
+        return this.odds+this.name;
     }
 }
