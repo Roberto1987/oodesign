@@ -14,6 +14,11 @@ import java.util.HashMap;
 public class Bin extends HashMap<String,Outcome>{
 
 
+    /**
+     * Add an outcome of the collection
+     * @param o Outcome
+     * @throws KeyAlreadyContainedException if the Outcome is already in the bin
+     */
     public void put(Outcome o) throws KeyAlreadyContainedException {
         if (super.containsKey(o.getDescription()))
         {

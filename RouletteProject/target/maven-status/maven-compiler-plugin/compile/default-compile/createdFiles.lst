@@ -1,4 +1,8 @@
+Global\Constant.class
+customException\MethodNotAllowedException.class
+model\RandomGenerator.class
 model\Bin.class
+model\Wheel.class
 application\main.class
 customException\KeyAlreadyContainedException.class
 model\Outcome.class
