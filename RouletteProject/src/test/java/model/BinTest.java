@@ -20,4 +20,14 @@ public class BinTest {
         bin.put(o2);
     }
 
+    @Test
+    public void putSomeElementsTest() throws Exception{
+        Outcome o1 = new Outcome("red","1:2");
+        Outcome o2 = new Outcome("black","1:2");
+        Bin bin = new Bin();
+        bin.put(o1);
+        bin.put(o2);
+        System.out.println(bin);
+    }
+
 }

@@ -17,6 +17,9 @@ public class Wheel {
     public Wheel(){
         randomGenerator = RandomGenerator.getInstance();
         bins = new Bin[Constant.NUMBER_OF_BINS];
+        for(int i = 0; i<bins.length;i++){
+            bins[i] = new Bin();
+        }
     }
 
     /**
@@ -24,17 +27,9 @@ public class Wheel {
      * @param o
      * @param binNumber
      */
-    public void addOutcomeToBin(Outcome o, int binNumber){
-        try {
-            bins[binNumber].put(o);
-        } catch (KeyAlreadyContainedException e) {
-            e.printStackTrace();
-            System.out.println("Element already inserted");
-        }
-        finally {
-
-        }
-    }
+    public void addOutcomeToBin(Outcome o, int binNumber) throws KeyAlreadyContainedException {
+          bins[binNumber].put(o);
+      }
 
     public Bin getBin(int binNumber){
         return bins[binNumber];

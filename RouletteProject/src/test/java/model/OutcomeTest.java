@@ -25,9 +25,6 @@ public class OutcomeTest {
         outcomes.add(new Outcome("Red","1:5"));     // 4
     }
 
-    @After
-    public void tearDown() throws Exception {
-    }
 
     /**
      * Testing the equality method wich acts only on the name, not on the odds
