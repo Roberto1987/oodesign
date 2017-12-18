@@ -5,8 +5,6 @@ import customException.KeyAlreadyContainedException;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by rtesta on 18/12/2017.
  */
