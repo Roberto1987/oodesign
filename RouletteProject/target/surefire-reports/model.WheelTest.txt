@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: model.BinTest
+Test set: model.WheelTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in model.BinTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in model.WheelTest

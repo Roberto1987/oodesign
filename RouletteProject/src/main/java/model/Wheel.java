@@ -6,6 +6,7 @@ import customException.KeyAlreadyContainedException;
 /**
  * Created by rtesta on 13/12/2017.
  * Roulette wheels, randomly pick one of the 37 possible bins.
+ * bin(0) -> 1, ... bin(35)-> 36, bin(36)-> 0, bin(37)-> 00
  *
  */
 public class Wheel {
