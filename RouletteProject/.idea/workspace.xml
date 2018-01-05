@@ -2,37 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e218b2cb-ca2e-4b8b-9c58-ad2c9163d32e" name="Default" comment="Wheel tests">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/deliverable2/customException/MethodNotAllowedException.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/deliverable2/Global/Constant.class" afterPath="$PROJECT_DIR$/target/deliverable2/Global/Constant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/deliverable2/model/RandomGenerator.class" afterPath="$PROJECT_DIR$/target/deliverable2/model/RandomGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/deliverable2/model/Wheel.class" afterPath="$PROJECT_DIR$/target/deliverable2/model/Wheel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/model/RandomGeneratorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/model/RandomGeneratorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Translations/out/production/Translations/Model/HTTPSender.class" afterPath="$PROJECT_DIR$/../Translations/out/production/Translations/Model/HTTPSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Translations/out/production/Translations/main/GlobalContants.class" afterPath="$PROJECT_DIR$/../Translations/out/production/Translations/main/GlobalContants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Translations/out/production/Translations/main/Main.class" afterPath="$PROJECT_DIR$/../Translations/out/production/Translations/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/deliverable2/model/BinBuilder.class" afterPath="$PROJECT_DIR$/target/deliverable2/model/BinBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/model/BinBuilderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/model/BinBuilderTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Global/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/Global/Constant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/customException/KeyAlreadyContainedException.java" afterPath="$PROJECT_DIR$/src/main/java/customException/KeyAlreadyContainedException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Bin.java" afterPath="$PROJECT_DIR$/src/main/java/model/Bin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/BinBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/model/BinBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Outcome.java" afterPath="$PROJECT_DIR$/src/main/java/model/Outcome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Wheel.java" afterPath="$PROJECT_DIR$/src/main/java/model/Wheel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/model/BinBuilderTest.java" afterPath="$PROJECT_DIR$/src/test/java/model/BinBuilderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/model/WheelTest.java" afterPath="$PROJECT_DIR$/src/test/java/model/WheelTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/surefire-report.html" afterPath="$PROJECT_DIR$/target/site/surefire-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-model.BinBuilderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-model.BinBuilderTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-model.BinTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-model.BinTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-model.OutcomeTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-model.OutcomeTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-model.RandomGeneratorTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-model.RandomGeneratorTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-model.WheelTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-model.WheelTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/model.BinBuilderTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/model.BinBuilderTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/model.BinTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/model.BinTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/model.OutcomeTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/model.OutcomeTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/model.RandomGeneratorTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/model.RandomGeneratorTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/model.WheelTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/model.WheelTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Translations/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Translations/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Translations/src/Model/HTTPSender.java" afterPath="$PROJECT_DIR$/../Translations/src/Model/HTTPSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Translations/src/main/GlobalContants.java" afterPath="$PROJECT_DIR$/../Translations/src/main/GlobalContants.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,25 +34,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="BinBuilderTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BinBuilderTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/model/BinBuilderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="63">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Outcome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Outcome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-              <folding>
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,11 +47,11 @@
       <file leaf-file-name="Bin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Bin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="138">
+              <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
               <folding>
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/BinBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+            <state relative-caret-position="313">
+              <caret line="138" column="23" lean-forward="false" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#425#426#0" expanded="true" />
@@ -112,8 +88,8 @@
       <file leaf-file-name="Constant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Global/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="225">
+              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -158,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/main/java/application/main.java" />
         <option value="$PROJECT_DIR$/src/test/java/OutcomeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/customException/MethodNotAllowedException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/customException/KeyAlreadyContainedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/RandomGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/OutcomeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/BinTest.java" />
@@ -166,10 +141,11 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Wheel.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/WheelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Global/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Bin.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Outcome.java" />
-        <option value="$PROJECT_DIR$/src/test/java/model/BinBuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/customException/KeyAlreadyContainedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Bin.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/BinBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/BinBuilderTest.java" />
       </list>
     </option>
   </component>
@@ -325,6 +301,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Global" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,32 +464,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BinTest.putSameElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Roulette" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.BinTest" />
-      <option name="METHOD_NAME" value="putSameElementTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="BinTest.putSomeElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -548,7 +502,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.BinBuilderTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="METHOD_NAME" value="splitBet" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -766,20 +720,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="5">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.WheelTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.WheelTest.addDuplicateOutcomeToBin" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BinTest.putSameElementTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BinTest.putSomeElementsTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BinBuilderTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BinTest.putSomeElementsTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BinBuilderTest" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.BinBuilderTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.WheelTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.WheelTest.addDuplicateOutcomeToBin" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.BinTest.putSomeElementsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BinTest.putSameElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -840,27 +792,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinBuilderTest - 2018.01.05 at 15h 48m 19s.xml">
-      <configuration name="BinBuilderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinBuilderTest - 2018.01.05 at 15h 48m 46s.xml">
-      <configuration name="BinBuilderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinBuilderTest - 2018.01.05 at 15h 49m 33s.xml">
-      <configuration name="BinBuilderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinBuilderTest - 2018.01.05 at 15h 50m 02s.xml">
-      <configuration name="BinBuilderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinBuilderTest - 2018.01.05 at 15h 50m 27s.xml">
-      <configuration name="BinBuilderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinBuilderTest - 2018.01.05 at 15h 50m 50s.xml">
-      <configuration name="BinBuilderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinBuilderTest - 2018.01.05 at 15h 51m 28s.xml">
-      <configuration name="BinBuilderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinBuilderTest - 2018.01.05 at 15h 52m 14s.xml">
       <configuration name="BinBuilderTest" configurationId="JUnit" />
     </history-entry>
@@ -869,6 +800,27 @@
     </history-entry>
     <history-entry file="BinBuilderTest - 2018.01.05 at 15h 54m 22s.xml">
       <configuration name="BinBuilderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinBuilderTest - 2018.01.05 at 17h 36m 53s.xml">
+      <configuration name="BinBuilderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinBuilderTest - 2018.01.05 at 17h 37m 02s.xml">
+      <configuration name="BinBuilderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinBuilderTest_splitBet - 2018.01.05 at 17h 36m 28s.xml">
+      <configuration name="BinBuilderTest.splitBet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinBuilderTest_splitBetLeftColumn - 2018.01.05 at 16h 53m 31s.xml">
+      <configuration name="BinBuilderTest.splitBetLeftColumn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinBuilderTest_splitBetLeftColumn - 2018.01.05 at 16h 53m 49s.xml">
+      <configuration name="BinBuilderTest.splitBetLeftColumn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinBuilderTest_splitBetLeftColumn - 2018.01.05 at 17h 23m 43s.xml">
+      <configuration name="BinBuilderTest.splitBetLeftColumn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinBuilderTest_splitBetLeftColumn - 2018.01.05 at 17h 36m 08s.xml">
+      <configuration name="BinBuilderTest.splitBetLeftColumn" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -882,6 +834,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -890,10 +843,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32408434" sideWeight="0.50216216" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32408434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32408434" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1231,13 +1184,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/model/OutcomeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/customException/KeyAlreadyContainedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/customException/MethodNotAllowedException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/application/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1289,6 +1235,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Outcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+          <folding>
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/customException/KeyAlreadyContainedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Global/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Wheel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
@@ -1301,53 +1274,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Global/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Bin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="138">
+          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
           <folding>
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Outcome.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/BinBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="313">
+          <caret line="138" column="23" lean-forward="false" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
           <folding>
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/model/BinBuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/BinBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

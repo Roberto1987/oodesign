@@ -70,6 +70,6 @@ public class Outcome {
      * @return
      */
     public String getDescription(){
-        return this.name+" - "+this.odds;
+        return this.name+" |-| "+this.odds;
     }
 }

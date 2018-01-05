@@ -2,9 +2,8 @@ package model;
 
 import Global.Constant;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by rtesta on 20/12/2017.
@@ -32,8 +31,11 @@ public class BinBuilderTest {
     }
 
     @Test
-    public void splitBetLeftColumn() throws Exception {
-        binBuilder.splitBetLeftColumn();
+    public void splitBet() throws Exception {
+        binBuilder.splitBet();
+        for(int i = 0; i< Constant.NUMBER_OF_BINS;i++){
+            System.out.println("BIN "+i+": "+Wheel.getInstance().getBin(i).printBin());
+        }
     }
 
 }

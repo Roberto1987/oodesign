@@ -22,7 +22,7 @@ public class Bin extends HashMap<String,Outcome>{
     public void put(Outcome o) throws KeyAlreadyContainedException {
         if (super.containsKey(o.getDescription()))
         {
-            throw new KeyAlreadyContainedException();
+            throw new KeyAlreadyContainedException(o.getDescription());
         }
     super.put(o.getDescription(),o);
     }

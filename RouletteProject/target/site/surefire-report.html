@@ -79,11 +79,11 @@ function toggleDisplay(elementId) {
 <th>Time</th></tr>
 <tr class="b">
 <td>9</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
-<td>1.79</td></tr></table><br />
+<td>88.889%</td>
+<td>0.361</td></tr></table><br />
 <p>Note: failures are anticipated and checked for with assertions while errors are unanticipated.</p><br /></div>
 <div class="section">
 <h2><a name="Package_List"></a>Package List</h2><a name="Package_List"></a>
@@ -100,11 +100,11 @@ function toggleDisplay(elementId) {
 <tr class="b">
 <td><a href="#model">model</a></td>
 <td>9</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
-<td>1.79</td></tr></table><br />
+<td>88.889%</td>
+<td>0.361</td></tr></table><br />
 <p>Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.</p>
 <div class="section">
 <h3><a name="model"></a>model</h3><a name="model"></a>
@@ -119,14 +119,14 @@ function toggleDisplay(elementId) {
 <th>Success Rate</th>
 <th>Time</th></tr>
 <tr class="b">
-<td><a href="#modelBinBuilderTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#modelBinBuilderTest"><img src="images/icon_error_sml.gif" alt="" /></a></td>
 <td><a href="#modelBinBuilderTest">BinBuilderTest</a></td>
 <td>2</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
-<td>1.766</td></tr>
+<td>50%</td>
+<td>0.32</td></tr>
 <tr class="a">
 <td><a href="#modelBinTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
 <td><a href="#modelBinTest">BinTest</a></td>
@@ -135,7 +135,7 @@ function toggleDisplay(elementId) {
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0.003</td></tr>
+<td>0.012</td></tr>
 <tr class="b">
 <td><a href="#modelOutcomeTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
 <td><a href="#modelOutcomeTest">OutcomeTest</a></td>
@@ -144,7 +144,7 @@ function toggleDisplay(elementId) {
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0.01</td></tr>
+<td>0.026</td></tr>
 <tr class="a">
 <td><a href="#modelRandomGeneratorTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
 <td><a href="#modelRandomGeneratorTest">RandomGeneratorTest</a></td>
@@ -153,7 +153,7 @@ function toggleDisplay(elementId) {
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0.006</td></tr>
+<td>0.002</td></tr>
 <tr class="b">
 <td><a href="#modelWheelTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
 <td><a href="#modelWheelTest">WheelTest</a></td>
@@ -162,7 +162,7 @@ function toggleDisplay(elementId) {
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0.005</td></tr></table></div><br /></div>
+<td>0.001</td></tr></table></div><br /></div>
 <div class="section">
 <h2><a name="Test_Cases"></a>Test Cases</h2><a name="Test_Cases"></a>
 <p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p>
@@ -170,24 +170,37 @@ function toggleDisplay(elementId) {
 <h3><a name="BinBuilderTest"></a>BinBuilderTest</h3><a name="modelBinBuilderTest"></a>
 <table border="1" class="bodyTable">
 <tr class="a">
-<td><img src="images/icon_success_sml.gif" alt="" /></td>
-<td><a name="TC_model.BinBuilderTest.splitBetLeftColumn"></a>splitBetLeftColumn</td>
-<td>1.507</td></tr>
+<td><a href="#model.BinBuilderTest.splitBet"><img src="images/icon_error_sml.gif" alt="" /></a></td>
+<td><a name="TC_model.BinBuilderTest.splitBet"></a><a href="#model.BinBuilderTest.splitBet">splitBet</a>
+<div class="detailToggle" style="display:inline"><a href="javascript:toggleDisplay(&apos;model.BinBuilderTest.splitBet&apos;);"><span style="display:inline;" id="model.BinBuilderTest.splitBetoff"> + </span><span style="display:none;" id="model.BinBuilderTest.splitBeton"> - </span>[ Detail ]</a></div></td>
+<td>0.028</td></tr>
+<tr class="b">
+<td></td>
+<td></td>
+<td></td></tr>
+<tr class="a">
+<td></td>
+<td>
+<div id="model.BinBuilderTest.splitBeterror" style="display:none;">
+<div>
+<pre>customException.KeyAlreadyContainedException
+	at model.BinBuilderTest.splitBet(BinBuilderTest.java:34)</pre></div></div></td>
+<td></td></tr>
 <tr class="b">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_model.BinBuilderTest.genStraightBet"></a>genStraightBet</td>
-<td>0.187</td></tr></table></div>
+<td>0.207</td></tr></table></div>
 <div class="section">
 <h3><a name="BinTest"></a>BinTest</h3><a name="modelBinTest"></a>
 <table border="1" class="bodyTable">
 <tr class="a">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_model.BinTest.putSomeElementsTest"></a>putSomeElementsTest</td>
-<td>0.001</td></tr>
+<td>0.005</td></tr>
 <tr class="b">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_model.BinTest.putSameElementTest"></a>putSameElementTest</td>
-<td>0.001</td></tr></table></div>
+<td>0</td></tr></table></div>
 <div class="section">
 <h3><a name="OutcomeTest"></a>OutcomeTest</h3><a name="modelOutcomeTest"></a>
 <table border="1" class="bodyTable">
@@ -198,25 +211,39 @@ function toggleDisplay(elementId) {
 <tr class="b">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_model.OutcomeTest.isEqualToTest"></a>isEqualToTest</td>
-<td>0.001</td></tr></table></div>
+<td>0</td></tr></table></div>
 <div class="section">
 <h3><a name="RandomGeneratorTest"></a>RandomGeneratorTest</h3><a name="modelRandomGeneratorTest"></a>
 <table border="1" class="bodyTable">
 <tr class="a">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_model.RandomGeneratorTest.generateRandNumCorrectOutputTest"></a>generateRandNumCorrectOutputTest</td>
-<td>0.001</td></tr></table></div>
+<td>0</td></tr></table></div>
 <div class="section">
 <h3><a name="WheelTest"></a>WheelTest</h3><a name="modelWheelTest"></a>
 <table border="1" class="bodyTable">
 <tr class="a">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_model.WheelTest.addDuplicateOutcomeToBin"></a>addDuplicateOutcomeToBin</td>
-<td>0</td></tr>
+<td>0.001</td></tr>
 <tr class="b">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_model.WheelTest.addOutcomesToBinTest"></a>addOutcomesToBinTest</td>
 <td>0</td></tr></table></div><br /></div>
+<div class="section">
+<h2><a name="Failure_Details"></a>Failure Details</h2><a name="Failure_Details"></a>
+<p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p><br />
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_error_sml.gif" alt="" /></td>
+<td><a name="model.BinBuilderTest.splitBet"></a>splitBet</td></tr>
+<tr class="b">
+<td></td>
+<td>customException.KeyAlreadyContainedException</td></tr>
+<tr class="a">
+<td></td>
+<td>
+<div id="splitBeterror">model.BinBuilderTest:34</div></td></tr></table><br /></div>
       </div>
     </div>
     <div class="clear">
