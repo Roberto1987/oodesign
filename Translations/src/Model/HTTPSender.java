@@ -27,8 +27,12 @@ public class HTTPSender {
      * @throws IOException
      */
     public String httpSendRequest(String word, String transFrom, String transTo, String api_label) throws IOException {
+
+        if(word.isEmpty()){
+            word = "empty word";
+        }
         word = checkForSpacing(word);
-        String response = getStringFromInputStream(retrieveTranslation(httpRequestCreation(word,transFrom,transTo,api_label) ));
+       String response = getStringFromInputStream(retrieveTranslation(httpRequestCreation(word,transFrom,transTo,api_label) ));
         return traslationPostProcessing(response,api_label);
     }
 
@@ -52,6 +56,7 @@ public class HTTPSender {
             httpRequest = commonPrefixRequest+word+"&langpair="+transFrom+"|"
                     +transTo+"&de="+GlobalContants.MYMEMORY_MAIL;
         }
+
         return httpRequest;
     }
 
@@ -136,7 +141,7 @@ public class HTTPSender {
 
     /**
      * Transform the input stream in Strings
-     * @param is
+     * @param
      * @return
      */
     private static String getStringFromInputStream(InputStream is) {

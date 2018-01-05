@@ -13,6 +13,7 @@ public class GlobalContants {
     public static final String ENGLISH ="en";
     public static final String NORVEGIAN="no";
     public static final String ITALIAN = "it";
+    public static final String RUSSIAN = "ru";
 
     //---------Translator-----------------------------
 
