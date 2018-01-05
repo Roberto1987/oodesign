@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: model.RandomGeneratorTest
+Test set: model.BinBuilderTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in model.RandomGeneratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.251 s - in model.BinBuilderTest

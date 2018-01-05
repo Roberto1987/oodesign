@@ -26,4 +26,12 @@ public class Bin extends HashMap<String,Outcome>{
         }
     super.put(o.getDescription(),o);
     }
+
+    /**
+     * Print all bin content
+     */
+    public String printBin(){
+        return super.toString();
+    }
+
 }

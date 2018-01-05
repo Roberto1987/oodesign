@@ -15,7 +15,9 @@ public class BinBuilder {
      Wheel wheel;
      private static BinBuilder binBuilder;
 
-     private BinBuilder(){}
+     private BinBuilder(){
+         wheel = Wheel.getInstance();
+     }
 
      public static synchronized BinBuilder getBinBuilder(){
          if (binBuilder==null) {
@@ -49,7 +51,7 @@ public class BinBuilder {
      * @throws KeyAlreadyContainedException
      */
     public void doubleZero() throws KeyAlreadyContainedException {
-        wheel.getBin(36).put(new Outcome(Constant.DOUBLE_ZERO,"1:35"));
+        wheel.getBin(Constant.NUMBER_OF_BINS-1).put(new Outcome(Constant.DOUBLE_ZERO,"1:35"));
     }
 
     public void splitBetLeftColumn() throws KeyAlreadyContainedException {

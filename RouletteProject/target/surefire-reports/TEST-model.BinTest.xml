@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="model.BinTest" time="0.078" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="model.BinTest" time="0.003" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\rtesta\AppData\Local\Temp\surefire3685930950652906676\surefirebooter4521017900514223768.jar C:\Users\rtesta\AppData\Local\Temp\surefire3685930950652906676 2017-12-19T09-06-52_233-jvmRun1 surefire718745331902917788tmp surefire_04204599642582713883tmp"/>
+    <property name="sun.java.command" value="C:\Users\rtesta\AppData\Local\Temp\surefire7607483384894494931\surefirebooter7364878661558171567.jar C:\Users\rtesta\AppData\Local\Temp\surefire7607483384894494931 2018-01-05T16-41-34_355-jvmRun1 surefire3917357589394985506tmp surefire_02120140845974405872tmp"/>
     <property name="surefire.test.class.path" value="C:\LocalPersonalGitRepos\OOdesign\RouletteProject\target\test-classes;C:\LocalPersonalGitRepos\OOdesign\RouletteProject\target\deliverable2;C:\Users\rtesta\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\rtesta\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\rtesta"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\rtesta\AppData\Local\Temp\surefire3685930950652906676\surefirebooter4521017900514223768.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rtesta\AppData\Local\Temp\surefire7607483384894494931\surefirebooter7364878661558171567.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\rtesta\AppData\Local\Microsoft\WindowsApps;C:\Users\rtesta\AppData\Local\Programs\Git\cmd;C:\Users\rtesta\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\SpringBoot\spring-boot-cli-1.5.8.RELEASE-bin\spring-1.5.8.RELEASE\bin;C:\Program Files\Sublime Text 3;C:\Program Files\Java\jdk1.8.0_111;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\rtesta\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\rtesta\AppData\Local\Programs\Python\Python36-32\;C:\Users\rtesta\AppData\Local\Microsoft\WindowsApps;C:\Users\rtesta\AppData\Local\Programs\Git\cmd;C:\Users\rtesta\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\SpringBoot\spring-boot-cli-1.5.8.RELEASE-bin\spring-1.5.8.RELEASE\bin;C:\Program Files\Sublime Text 3;C:\Program Files\Java\jdk1.8.0_111;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.111-b14"/>

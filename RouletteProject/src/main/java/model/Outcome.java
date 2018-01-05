@@ -69,7 +69,7 @@ public class Outcome {
      * String representation of the object
      * @return
      */
-    public String getDescription    (){
-        return this.name+"-"+this.odds;
+    public String getDescription(){
+        return this.name+" - "+this.odds;
     }
 }

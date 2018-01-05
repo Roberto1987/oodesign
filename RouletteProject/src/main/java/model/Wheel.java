@@ -8,19 +8,38 @@ import customException.KeyAlreadyContainedException;
  * Roulette wheels, randomly pick one of the 37 possible bins.
  * bin(0) -> 1, ... bin(35)-> 36, bin(36)-> 0, bin(37)-> 00
  *
+ * Only one Wheel must exists, then is implemented as Singleton.
+ *
  */
 public class Wheel {
+
+    private static volatile Wheel instance = null;
 
     private Bin[] bins;
 
     private RandomGenerator randomGenerator;
 
-    public Wheel(){
+    private Wheel(){
         randomGenerator = RandomGenerator.getInstance();
         bins = new Bin[Constant.NUMBER_OF_BINS];
         for(int i = 0; i<bins.length;i++){
             bins[i] = new Bin();
         }
+
+    }
+
+    /**
+     * Implemented with lazy initialization
+     */
+    public static Wheel getInstance() {
+        if (instance == null) {
+            synchronized(Wheel.class) {
+                if (instance == null) {
+                    instance = new Wheel();
+                }
+            }
+        }
+        return instance;
     }
 
     /**
@@ -32,6 +51,7 @@ public class Wheel {
           bins[binNumber].put(o);
       }
 
+
     public Bin getBin(int binNumber){
         return bins[binNumber];
     }
@@ -42,6 +62,13 @@ public class Wheel {
      */
     public Bin getRandomBin(){
         return bins[randomGenerator.generateRandNum()];
+    }
+
+    /**
+     * Reset the Wheel object
+     */
+    public void reset(){
+        instance = new Wheel();
     }
 
 }

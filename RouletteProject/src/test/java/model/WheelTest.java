@@ -3,6 +3,7 @@ package model;
 
 import customException.KeyAlreadyContainedException;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -16,7 +17,8 @@ public class WheelTest {
 
     @Before
     public void setUp() throws Exception {
-        wheel = new Wheel();
+        wheel = Wheel.getInstance();
+        wheel.reset();
          o1 = new Outcome("Red","2:1");
          o2 = new Outcome("Red","2:1");
          o3 = new Outcome("Black","2:1");
