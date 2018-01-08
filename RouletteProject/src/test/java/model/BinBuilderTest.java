@@ -18,7 +18,8 @@ public class BinBuilderTest {
     }
 
     @Test
-    public void genStraightBet() throws Exception {
+    @Ignore
+    public void genStraightBetTest() throws Exception {
         binBuilder.genStraightBet();
         binBuilder.doubleZero();
         binBuilder.zero();
@@ -26,13 +27,20 @@ public class BinBuilderTest {
             System.out.println("BIN "+i+": "+Wheel.getInstance().getBin(i).printBin());
         }
 
-
-
     }
 
     @Test
-    public void splitBet() throws Exception {
+    @Ignore
+    public void splitBetTest() throws Exception {
         binBuilder.splitBet();
+        for(int i = 0; i< Constant.NUMBER_OF_BINS;i++){
+            System.out.println("BIN "+i+": "+Wheel.getInstance().getBin(i).printBin());
+        }
+    }
+
+    @Test
+    public void streetBandTest() throws Exception{
+        binBuilder.streetBet();
         for(int i = 0; i< Constant.NUMBER_OF_BINS;i++){
             System.out.println("BIN "+i+": "+Wheel.getInstance().getBin(i).printBin());
         }

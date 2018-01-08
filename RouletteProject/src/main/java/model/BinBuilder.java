@@ -137,8 +137,24 @@ public class BinBuilder {
         String thirtySix ="36";
         wheel.getBin(36).put(new Outcome(""+thirtySix+"-"+33,odds));
         wheel.getBin(36).put(new Outcome(""+thirtySix+"-"+35,odds));
+    }
 
+    /**
+     * StreetBet: bet involving all number in the row of the outcome.
+     * For example:
+     */
+    public void streetBet() throws KeyAlreadyContainedException {
+        int numbers = 36;
+        int rowLength = 3;
+        Wheel wheel = Wheel.getInstance();
+        String streetOdds = "11:1";
+        for(int i=1;i<numbers+1;i=i+3){
+            for(int j=0;j<rowLength;j++){
+                String outcome =i+"-"+(i+1)+"-"+(i+2);
+                wheel.getBin(j+i).put(new Outcome(outcome,streetOdds));
 
+            }
+        }
     }
 
 }
